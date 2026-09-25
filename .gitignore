@@ -28,6 +28,7 @@ yarn-error.*
 
 # macOS
 .DS_Store
+*.DS_Store
 *.pem
 
 # local env files
@@ -45,3 +46,12 @@ example
 # IDEA
 .idea/
 .vscode/
+
+# Local builds
+build/
+
+# credentials
+.env
+.env.local
+.env.*.local
+credentials/
